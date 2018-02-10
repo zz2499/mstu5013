@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Digital Pet</title>
+    <link rel="stylesheet" href="digitalpet.css">
+  </head>
+  <body>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVOTnGFcosRGbr2sCjZi83NgJ-FtH0kogqsx7Futb8NiJnZw-L" alt="A cut dog">
+
+
+  <!-- Mounting point for a component -->
+    <digitpet></digitpet>
+
+<!-- Reference to my components -->
+    <script src="./tags/digitpet.tag" type="riot/tag"></script>
+    <!-- <script src="js/digitpet.js"></script> -->
+
+
+
+    <!-- Importing RIOT Library -->
+    <script src="https://cdn.jsdelivr.net/npm/riot@3.8/riot+compiler.min.js"></script>
+
+    <!--Initializing RIOT   -->
+    <script>
+        riot.mount("*")
+    </script>
+  </body>
+</html>
